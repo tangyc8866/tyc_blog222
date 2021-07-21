@@ -1,0 +1,111 @@
+body {
+  line-height: 1.75em;
+}
+
+
+#sidebar .sidebar-profile .sidebar-profile-name {
+  font-size: 2.4rem;
+}
+#sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-bio, #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-job, #sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-location {
+  font-size: 1.8rem;
+}
+#sidebar[data-behavior="1"] ul.sidebar-buttons li.sidebar-button .sidebar-button-link .sidebar-button-desc {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+#sidebar a {
+  text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .main-content-wrap {
+    max-width: 800px;
+    padding: 0 30px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #index-page {
+    margin-top: 60px;
+  }
+}
+h1 {
+  line-height: 1.25em;
+}
+blockquote {
+  border-left: 10px solid #999;
+  color: #999;
+  padding: 0 20px;
+}
+blockquote > p:first-child {
+  margin-bottom: 1em;
+}
+p {
+  margin: 0 0 1em;
+}
+.post .post-content *:not(blockquote):not(.alert) > p {
+    margin: 1em 0 0;
+}
+.post .post-content img {
+  padding: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 4px #999;
+  max-width: 90%;
+}
+.post .post-content p + img, .post .post-content p + div img {
+  margin-top: 1em;
+}
+img.align-right {
+  display: inline;
+  float: right;
+  margin-left: 1em;
+}
+.codeblock, figure.highlight {
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+
+.post .post-meta {
+  margin-top: 1em;
+  font-size: 1.6rem;
+}
+/* Book translation */
+.post .post-content img.book {
+  display: inline;
+  height: 200px;
+}
+
+
+.archive .archive-posts .archive-post .archive-post-date {
+  padding-left: 5px;
+}
+.archive .archive-posts .archive-post::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f0da';
+  font-size: 1.3rem;
+}
+.tag .tag-count {
+  background-color: #CCC;
+  color: #FFF;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 1024px) {
+  ul.archive-posts {
+    padding-left: 0;
+  }
+}
+
+
+/* Software page */
+@media only screen and (min-width:480px) {
+  .postShorten.postShorten--thumbnailimg-left .postShorten-thumbnailimg {
+    float:left;
+    margin:5px 15px 15px 0;
+  }
+  .postShorten-header {
+    margin-top: 10px;
+  }
+}

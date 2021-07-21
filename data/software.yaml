@@ -1,0 +1,67 @@
+category_1:
+  title: Numerical Computing
+  list:
+    - name: Spectra
+      url: https://spectralib.org/
+      logo: /images/sticker-spectra.png
+      description: C++ library for large-scale eigenvalue and SVD problems (Honorable Mention of <a href="http://stat-computing.org/awards/jmc/winners.html">John Chambers Award 2016</a>)
+    - name: LBFGS++
+      url: https://lbfgspp.statr.me/
+      logo: /images/sticker-lbfgspp.png
+      description: A header-only C++ library for L-BFGS algorithm
+    - name: RcppNumerical
+      url: https://github.com/yixuan/RcppNumerical
+      logo: /images/sticker-rcppnumerical.png
+      description: Rcpp integration for numerical computing libraries
+    - name: Fastncdf
+      url: https://github.com/yixuan/fastncdf
+      logo: /images/sticker-fastncdf.png
+      description: Fast computation of normal cumulative distribution function
+
+category_2:
+  title: Statistical Modeling and Machine Learning
+  list:
+    - name: MarkerPen
+      url: https://github.com/yixuan/markerpen
+      logo: /images/sticker-markerpen.png
+      description: Marker gene detection via penalized principal component analysis
+    - name: ALMOND
+      url: https://github.com/yixuan/almond
+      logo: /images/sticker-almond.png
+      description: Adaptive latent modeling and optimization via neural networks and Langevin diffusion
+    - name: RSpectra
+      url: https://github.com/yixuan/RSpectra
+      logo: /images/sticker-rspectra.png
+      description: Large-scale eigenvalue decomposition, SVD, and principal component analysis
+    - name: CDtau
+      url: https://github.com/yixuan/cdtau
+      logo: /images/sticker-cdtau.png
+      description: Unbiased contrastive divergence algorithm for training energy-based latent variable models
+    - name: MiniDNN
+      url: https://github.com/yixuan/MiniDNN
+      logo: /images/sticker-minidnn.png
+      description: A header-only C++ library for deep neural networks
+    - name: Recosystem
+      url: https://github.com/yixuan/recosystem
+      logo: /images/sticker-recosystem.png
+      description: Recommender system using parallel matrix factorization
+
+category_3:
+  title: Graphics and Data Visualization
+  list:
+    - name: Showtext
+      url: https://github.com/yixuan/showtext
+      logo: /images/sticker-showtext.png
+      description: An R package that makes it easier to use fonts in R graphics
+    - name: R2SWF
+      url: https://github.com/yixuan/R2SWF
+      logo: /images/sticker-r2swf.png
+      description: Creating Flash animations from R graphics
+
+category_4:
+  title: Reproducible Research
+  list:
+    - name: Prettydoc
+      url: https://prettydoc.statr.me/
+      logo: /images/sticker-prettydoc.png
+      description: Creating pretty documents from R Markdown

@@ -1,0 +1,44 @@
+{{ partial "head.html" . }}
+  <body>
+    <div id="blog">
+      {{ partial "header.html" . }}
+      {{ partial "sidebar.html" . }}
+      {{ partial "post/header-cover.html" . }}
+      <div id="main" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}"
+        class="{{ with .Params.coverimage }}hasCover{{ end }}
+               {{ if eq .Params.covermeta "out" }}hasCoverMetaOut{{ else }}hasCoverMetaIn{{ end }}
+               {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          <div class="post-header main-content-wrap {{ if $.Params.metaalignment }}text-{{ $.Params.metaalignment }}{{ else }}text-left{{ end }}">
+            <h1 class="post-title" itemprop="headline">
+              {{ .Title }}
+            </h1>
+          </div>
+          <section class="postShorten-group main-content-wrap">
+            {{ range .Site.Data.software }}
+              <h1><i class="fas fa-angle-double-right"></i> {{ .title }}</h1>
+              {{ range .list }}
+              <article class="postShorten postShorten--thumbnailimg-left">
+                <div class="postShorten-wrap">
+                  <div class="postShorten-header">
+                    <h1 class="postShorten-title" itemprop="headline">{{ .name }}</h1>
+                  </div>
+                  <div class="postShorten-excerpt" itemprop="articleBody">
+                    <p>{{ .description | safeHTML }}</p>
+                    <p><a href="{{ .url }}"><i class="far fa-arrow-alt-circle-right"></i> Details</a></p>
+                  </div>
+                </div>
+                <a href="{{ .url }}">
+                  <div class="postShorten-thumbnailimg">
+                    <img alt="" itemprop="image" src="{{ .logo }}"/>
+                  </div>
+                </a>
+              </article>
+              {{ end }}
+            {{ end }}
+          </section>
+        </article>
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+{{ partial "foot.html" . }}
