@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "Yincai's Homepage"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "joyfulhome"
-googleAnalytics = "UA-43536203-1"
+# googleAnalytics = "UA-43536203-1"
 paginate = 7
 canonifyurls = true
 
