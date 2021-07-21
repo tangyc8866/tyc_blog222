@@ -15,6 +15,11 @@ Hello 大家好！
 
 - [学校网页](https://faculty.ecnu.edu.cn/_s35/tyc/main.psp)(会定期更新)
 
+我的书籍包括：
+
+1. [bookdown样本书](https://tangyc8866.github.io/bookdown-tyc/)
+
+
 ---
 
 从工作到现在，我一直在做关于统计和编程的技术[博客](/blogs/)。
